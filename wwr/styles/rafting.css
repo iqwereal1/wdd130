@@ -3,8 +3,8 @@
     --secondary-color: #5a7d8a;
     --accent1-color: #f2a541;
     --accent2-color: #ffffff;
-    --heading-font: "Merriweather", serif;
-    --body-font: "Roboto", sans-serif;
+    --heading-font: Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -29,6 +29,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav,
