@@ -82,7 +82,17 @@ article {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.logo img {
+header img {
     width: 100px;
+    height: auto;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+}
+
+main img {
+    max-width: 100%;
     height: auto;
 }
