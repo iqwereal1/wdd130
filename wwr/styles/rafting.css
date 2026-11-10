@@ -134,6 +134,8 @@ header nav a:hover {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    border: 3px solid var(--secondary-color);
+}
 }
 
 /* ADVENTURES - W04 FLEX */
