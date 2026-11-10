@@ -122,6 +122,10 @@ header nav a:hover {
 }
 
 /* HISTORY - W04 GRID */
+.history {
+    border-bottom: 3px solid var(--secondary-color);
+}
+
 .history-layout {
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
@@ -134,24 +138,24 @@ header nav a:hover {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    border: 3px solid var(--secondary-color);
-}
 }
 
-/* ADVENTURES - W04 FLEX */
+/* ADVENTURES - W04 GRID 5 IN ONE ROW */
+.adventures {
+    border-bottom: 3px solid var(--secondary-color);
+}
+
 .adventure-gallery {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.8rem;
     padding: 1rem;
-    flex-wrap: wrap;
 }
 
 .adventure-gallery figure {
-    flex: 1;
-    min-width: 150px;
     text-align: center;
     margin: 0;
+    min-width: 0;
 }
 
 .adventure-gallery img {
