@@ -81,3 +81,8 @@ article {
     border: 2px solid var(--primary-color);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
